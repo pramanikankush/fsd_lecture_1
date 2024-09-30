@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.video-gallery {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.video-gallery td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.video-gallery p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+video {
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .video-gallery {
+        width: 100%;
+    }
+    
+    .video-gallery td {
+        padding: 10px;
+    }
+}
