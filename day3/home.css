@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 253, 253);
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand img {
+    width: 90px;  /* Reduced width */
+    height: auto;  /* Keeps the aspect ratio */
+    transition: all 0.3s ease-in-out;
+}
+
+
+.navbar-links a{
+    color: black;
+    text-align: center;
+    text-decoration: none; 
+    margin-right: 10px; 
+    transition: all 0.3s ease-in-out;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+        text-decoration: none; 
+        margin-right: 10px;
+        border-radius: 50px; 
+}
+
+.navbar-links{
+    display: flex;
+    gap: 20px;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
