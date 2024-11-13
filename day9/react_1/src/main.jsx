@@ -4,13 +4,15 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Marks from './marks.jsx'
 import Profile from './profile.jsx'
+import Displaymarks from './displaymarks.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Profile n1={"Ankush"} n2={20} n3={"ghaziabad"}/>
     <Marks m1={98} m2={32}  m3={45} m4={56} m5={56} m6={76}/>
-    <Profile n1={"pramanik"} n2={21} n3={"indirapuram"}/>
+    <Profile n1={"Pramanik"} n2={21} n3={"Indirapuram"}/>
     <Marks m1={89} m2={45}  m3={78} m4={65} m5={51} m6={54}/>
+    <Displaymarks/>
   </StrictMode>,
 )
